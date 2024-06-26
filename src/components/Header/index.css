@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+
+.brand-logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo-title-container > img {
+  height: 25px;
+  width: 25px;
+  margin-right: 8px;
+}
+.brand-logo-title-container > h1 {
+  font-size: 20px;
+  color: #551e53;
+  font-weight: 800;
+}
+
+.nav-items-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 0px;
+}
+.link-item {
+  list-style-type: none;
+}
+.route-link {
+  color: #551e53;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
